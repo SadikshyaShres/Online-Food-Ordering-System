@@ -1,1 +1,6 @@
-console.log('index is running');
+
+var express = require('express');
+
+var application = new express();
+
+application.listen(3001);
